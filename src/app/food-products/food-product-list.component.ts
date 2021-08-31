@@ -1,14 +1,14 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { IProduct } from './product';
-import { ProductService } from './product.service';
+import { IProduct } from './food-product';
+import { ProductService } from './food-product.service';
 
 @Component({
-  templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  templateUrl: './food-product-list.component.html',
+  styleUrls: ['./food-product-list.component.css']
 })
 export class ProductListComponent implements OnInit, OnDestroy {
-  pageTitle = 'Product List';
+  pageTitle = 'Food List';
   imageWidth = 50;
   imageMargin = 2;
   showImage = false;
@@ -54,6 +54,6 @@ export class ProductListComponent implements OnInit, OnDestroy {
   }
 
   onRatingClicked(message: string): void {
-    this.pageTitle = 'Product List: ' + message;
+    this.pageTitle = 'Food List: ' + message;
   }
 }

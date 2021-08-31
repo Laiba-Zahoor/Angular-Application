@@ -1,0 +1,42 @@
+[
+  {
+    "productId": 1,
+    "productName": "Zinger burger",
+    "productCode": "ZG-0121",
+    "releaseDate": "yes",
+    "description": "yummy zinger burger",
+    "price": 200.95,
+    "starRating": 3.2,
+    "imageUrl": "assets/images/zinger.png"
+  },
+  {
+    "productId": 2,
+    "productName": "Chicken  pizza",
+    "productCode": "pz-02223",
+    "releaseDate": "yes",
+    "description": "Cheesy pizza",
+    "price": 1032,
+    "starRating": 4.6,
+    "imageUrl": "assets/images/pizza.jpg"
+  },
+  {
+    "productId": 5,
+    "productName": "shawarma",
+    "productCode": "sh-048",
+    "releaseDate": "Not now",
+    "description": "both specy and non-speicy",
+    "price": 180,
+    "starRating": 4.8,
+    "imageUrl": "assets/images/shawarma.jpg"
+  },
+  {
+    "productId": 8,
+    "productName": "Paratha roll",
+    "productCode": "p-0562",
+    "releaseDate": "yes",
+    "description": "",
+    "price": 155,
+    "starRating": 3.7,
+    "imageUrl": "assets/images/paratha roll.jpeg"
+  }
+]
